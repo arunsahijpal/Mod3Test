@@ -1,0 +1,18 @@
+uuid: e02f9e1a-c145-4317-9ea0-d79cea43c8fa
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Banner type'
+type: banner_type
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,19 @@
+uuid: 114f3ce3-6135-4e15-a795-cfff0dc607fa
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - contact.form.seller_form
+    - field.storage.contact_message.field_email_address
+id: contact_message.seller_form.field_email_address
+field_name: field_email_address
+entity_type: contact_message
+bundle: seller_form
+label: 'Email Address'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
