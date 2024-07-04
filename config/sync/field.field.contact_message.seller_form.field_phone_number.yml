@@ -1,0 +1,23 @@
+uuid: b9f8dedc-6781-4144-b936-eda7ea3573fa
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - contact.form.seller_form
+    - field.storage.contact_message.field_phone_number
+id: contact_message.seller_form.field_phone_number
+field_name: field_phone_number
+entity_type: contact_message
+bundle: seller_form
+label: 'Phone Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,19 @@
+uuid: 8ab4ee24-7be1-4025-95e2-48154a09751f
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - contact.form.seller_form
+    - field.storage.contact_message.field_first_name
+id: contact_message.seller_form.field_first_name
+field_name: field_first_name
+entity_type: contact_message
+bundle: seller_form
+label: 'First Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

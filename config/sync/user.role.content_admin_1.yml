@@ -1,0 +1,14 @@
+uuid: 252513af-af94-4309-b8ec-6032ab5d5210
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.product_category
+  module:
+    - taxonomy
+id: content_admin_1
+label: 'Content Admin 1'
+weight: 5
+is_admin: null
+permissions:
+  - 'create terms in product_category'

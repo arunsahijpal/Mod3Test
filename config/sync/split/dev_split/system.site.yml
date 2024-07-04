@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en-gb
+uuid: 13f2fba9-baa3-41f6-aa24-dc615c84add0
+name: 'Innoraft Employee Management Portal'
+mail: arunsahijpal111@gmail.com
+slogan: ''
+page:
+  403: /node/34
+  404: /node/33
+  front: /node/32
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en-gb
+mail_notification: null
